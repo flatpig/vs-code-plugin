@@ -2,6 +2,8 @@
   "name": "vscode-plugin-genius",
 	"displayName": "vscode-plugin-genius",
 	"description": "Create new folder with predefined files",
+	"publisher":"grayslee",
+	"author": "grayslee",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.53.0"
@@ -10,14 +12,14 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:vscode-plugin-genius.open"
+        "onCommand:vscode-plugin-genius.watchdog"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "vscode-plugin-genius.open",
-				"title": "Open"
+				"command": "vscode-plugin-genius.watchdog",
+				"title": "watchDog"
 			}
 		]
 	},
